@@ -26,6 +26,11 @@ indMean <- grep('-mean()',labelFeatures$features,value=FALSE,fixed=TRUE)
 indStd<- grep('-std()',labelFeatures$features,value=FALSE,fixed=TRUE)
 cutmergedData <- mergedData[,c(indMean,indStd)]
 
+# the dash or underscore in the column names seem to be replace by dot
+# takeout the redaudant dot
+names(cutmergedData) <- sub('..','.',names(cutmergedData),fixed=TRUE)
+names(cutmergedData) <- sub('..','.',names(cutmergedData),fixed=TRUE)
+
 # add two columns of the subject ID and activities
 # the name of activities are regularized to all lower case and no underscore
 labelActivities$activities <- tolower(sub('_','',labelActivities$activities,
