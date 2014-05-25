@@ -1,7 +1,7 @@
-## project course: Getting and Cleaning Data 
+## Course project:  Getting and Cleaning Data 
 ## Introduction:
 
-  The project load the experiement data measured using Samsung Galaxy SII of 30 volunteers, clean the dataset, and write out the average value of the mean and standard deviation of the measurements. The data is downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones, and the description of the data can be found in the README.txt file of the package. 
+  The project load the experiement data measured using Samsung Galaxy SII of 30 volunteers. I basically clean the dataset, and write out the average value of the mean and standard deviation of the measurements. The data is downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones, and the description of the data can be found in the README.txt file of the package. 
   
 ## R script
 
